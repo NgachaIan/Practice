@@ -1,0 +1,234 @@
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1%;
+    padding-left: 10%;
+    justify-content: flex-start;
+}
+
+nav li {
+    margin-right: 5%;
+    color:rgb(163, 163, 240);
+}
+
+.landing {
+    color:blue;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.buy-now {
+    background-color: rgb(2, 2, 119);
+    text-align: center;
+    color: white;
+    width: 150px;
+    flex-wrap: nowrap;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding-left: 10%;
+    color:rgb(7, 7, 197);
+}
+
+.header h1 {
+    text-align: left;
+    margin-left: 0;
+    margin-right: auto; 
+}
+
+.paragraph1 {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding-left: 10%;
+    color: rgb(113, 138, 252);
+    
+}
+
+.purchase-button {
+    margin-left: 10%;
+    border-radius: 10px;
+    background-color: rgb(2, 2, 119);
+    text-align: center;
+    color: white;
+    width: 125px;
+}
+
+.learn-button {
+    margin-left: 2%;
+    background-color: white;
+    text-align: center;
+    color:  rgb(2, 2, 119);
+    border-radius: 10px;
+    width: 125px;
+}
+
+#container {
+    background-image: url('img/artificial-intelligence-g52a88bf69_1920.jpg');
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    margin-top: -12%;
+}
+
+#about {
+    margin-top: 7%;
+}
+
+.about {
+    width: 50%;
+    padding-left: 9%;
+    display: inline-block;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#container1 {
+    background-image: url('img/computers-gbb32aa3e7_1920.jpg');
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    margin-top: -30%;
+}
+
+@media (min-width: 768px) {
+    .about {
+        width: 20%;
+    }
+}
+
+
+ @media (max-width: 600px) {
+    nav ul {
+        padding-left: 0;
+    }
+
+    nav li {
+        margin-right: 3%;
+        font-size: 14px;
+    }
+
+    .buy-now {
+        width: 120px;
+        font-size: 12px;
+    }
+
+    #container {
+        width: 200px;
+        height: 200px;
+        margin-top: 0;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    #container1 {
+        width: 200px;
+        height: 200px;
+        margin-top: 0;
+        padding-left: 0;
+        margin-left: 0;
+    }
+}
+  
+@media screen and (max-width: 768px) {
+    .header {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      padding-left: 0;
+      margin-left: 0;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .header {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      padding-left: 0;
+      margin-left: 0;
+    }
+    .purchase-button,
+    .learn-button {
+        margin-left: 0;
+        margin-top: 10px;
+        width: 50%;
+    }
+
+    #container {
+        width: 200px;
+        height: 200px;
+        margin-top: 0;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    #container1 {
+        width: 200px;
+        height: 200px;
+        margin-top: 0;
+        padding-left: 0;
+        margin-left: 0;
+    }
+  }
+
+  @media screen and (max-width: 1280px) {
+    .header {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      padding-left: 0;
+      margin-left: 0;
+    }
+    .purchase-button {
+        margin-left: 0;
+        margin-top: 10px;
+        width: 40%;
+    }
+
+    .learn-button {
+        width: 40%;
+        margin-left: 0;
+    }
+
+    #container {
+        width: 200px;
+        height: 200px;
+        margin-top: 0;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    #container1 {
+        width: 200px;
+        height: 200px;
+        margin-top: 0;
+        padding-left: 0;
+        margin-left: 0;
+    }
+  }
+
+  
+
+
+

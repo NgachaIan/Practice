@@ -8,6 +8,10 @@ nav ul {
     justify-content: flex-start;
 }
 
+nav #myLink {
+    display: none;
+}
+
 nav li {
     margin-right: 5%;
     color:rgb(163, 163, 240);
@@ -87,6 +91,10 @@ nav li {
 
 #about {
     margin-top: 7%;
+}
+
+#about1 {
+    margin-top: 10%;
 }
 
 .about {
@@ -226,6 +234,56 @@ nav li {
         padding-left: 0;
         margin-left: 0;
     }
+  }
+
+  @media screen and (max-width: 600px) {
+    nav ul {
+        display: none;
+      }
+    
+      nav a.icon {
+        display: block;
+      }
+    
+      nav.responsive {
+        position: relative;
+      }
+    
+      nav.responsive #myLinks {
+        display: block;
+        position: absolute;
+        top: 100%;
+        background-color: #f9f9f9;
+        width: 100%;
+        padding: 10px;
+      }
+    
+      nav.responsive #myLinks li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 5px;
+      } 
+
+      nav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    nav a.icon i {
+        font-size: 20px;
+    }
+    
+    nav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
   }
 
   
